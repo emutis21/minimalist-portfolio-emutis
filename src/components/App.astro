@@ -1,0 +1,27 @@
+---
+import Layout from '@/layouts/Layout.astro'
+
+import About from './sections/About.astro'
+import Education from './sections/Education.astro'
+import Hero from './sections/Hero.astro'
+import KeyboardManager from './KeyboardManager.astro'
+import Projects from './sections/Projects.astro'
+import Skills from './sections/Skills.astro'
+
+import { getI18n } from '@/i18n/'
+
+const { currentLocale } = Astro
+const i18n = getI18n({ currentLocale })
+---
+
+<Layout title={i18n.PAGE_INFO.SEO_TITLE}>
+  <main>
+    <Hero />
+    <About />
+    <Education />
+    <Skills />
+    <Projects />
+  </main>
+
+  <KeyboardManager />
+</Layout>
