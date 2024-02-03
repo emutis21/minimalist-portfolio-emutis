@@ -1,0 +1,200 @@
+{
+  "PAGE_INFO": {
+    "SEO_TITLE": "Portafolio de Esteban Mutis",
+    "SEO_DESCRIPTION": "Portafolio minimalista para mostrar los proyectos, habilidades y experiencia de Esteban Mutis",
+    "SEO_KEYWORDS": "Portafolio, minimalista, Esteban Mutis, proyectos, habilidades, experiencia",
+    "EMAIL_TITLE": "Enviar un email a Esteban Mutis al correo smithmutis@gmail.com",
+    "PHONE_TITLE": "Llamar a Esteban Mutis al número +573204958403",
+    "About": "Sobre mí",
+    "Projects": "Proyectos",
+    "Skills": "Habilidades",
+    "Experience": "Experiencia",
+    "Education": "Educación",
+    "Certificates": "Certificados",
+    "Print": "Imprimir",
+    "CURRENT": "Actual",
+    "FOOTER": "Pulsa <kbd>Ctrl</kbd> + <kbd>k</kbd> para abrir la barra de búsqueda"
+  },
+  "basics": {
+    "name": "Esteban Smith Mutis",
+    "label": "Front End Developer, con conocimientos en Back End",
+    "image": "/emutis.webp",
+    "email": "smithmutis@gmail.com",
+    "phone": "+573204958403",
+    "summary": "Desarrollador web con sólidos conocimientos en frontend y backend, especializado en Java (Spring Boot), Node.js, React y Next.js. Experto en optimización de rendimiento y accesibilidad. Certificado por Oracle Next Education y el SENA. Actualmente estudiante de Ingeniería en Sistemas en Bogotá, Colombia.",
+    "location": {
+      "postalCode": "110121",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "country": "Colombia"
+    },
+    "profiles": [
+      {
+        "profileTitle": "Perfil de LinkedIn de Esteban Mutis",
+        "network": "LinkedIn",
+        "username": "emutis",
+        "url": "https://linkedin.com/in/emutis"
+      },
+      {
+        "profileTitle": "Perfil de GitHub de Esteban Mutis",
+        "network": "GitHub",
+        "username": "emutis21",
+        "url": "https://github.com/emutis21"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidad Francisco José de Caldas",
+      "url": "https://www.udistrital.edu.co/",
+      "area": "Ingeniero de Sistemas",
+      "startDate": "2022-09-01",
+      "endDate": null
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Diseño y Desarrollo de Front-End con HTML 5 CSS - JavaScript",
+      "startDate": "2022-05-02",
+      "endDate": "2022-08-22",
+      "issuer": "SENA",
+      "url": "http://senasofiaplus.edu.co/"
+    },
+    {
+      "name": "Curso de backend con Java y Spring Boot",
+      "startDate": "2023-03-06",
+      "endDate": "2023-10-03",
+      "issuer": "Oracle Next Education",
+      "url": "https://app.aluracursos.com/user/smithmutis21/program/certificate"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Máster",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Máster",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Spring Boot", "Servidor"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Java Framework", "Servidor"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio"
+    },
+    {
+      "language": "Francés",
+      "fluency": "Básico"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programación",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tecnología",
+      "keywords": ["Innovación", "Desarrollo", "Open Source"]
+    },
+    {
+      "name": "Deportes",
+      "keywords": ["Fútbol", "Baloncesto", "Natación"]
+    },
+    {
+      "name": "Automovilismo",
+      "keywords": ["Fórmula 1", "Rally", "MotoGP"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ZSupermarket",
+      "isActive": false,
+      "description": "Plataforma de venta de productos de supermercado",
+      "highlights": ["Compra tus productos favoritos", "En desarrollo"],
+      "url": "https://github.com/emutis21/ZSupermarket"
+    },
+    {
+      "name": "Yt-Downloader",
+      "isActive": true,
+      "description": "Descarga videos de YouTube en formato MP4",
+      "highlights": ["Descarga tus videos favoritos", "En producción"],
+      "url": "https://github.com/emutis21/yt-downloader"
+    },
+    {
+      "name": "Campaña de Juan Poloche",
+      "isActive": true,
+      "description": "Campaña política para el edilato de Usaquén",
+      "highlights": ["Vota por el cambio", "En producción"],
+      "url": "https://juanpoloche-campana.vercel.app/"
+    },
+    {
+      "name": "Motoland",
+      "isActive": false,
+      "description": "Plataforma de compra y venta de motos usadas",
+      "highlights": ["Encuentra la moto de tus sueños", "En desarrollo"],
+      "url": "https://github.com/emutis21/motoland"
+    }
+  ]
+}
