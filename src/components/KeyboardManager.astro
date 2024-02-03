@@ -152,11 +152,11 @@ const profilesInfo = basics.profiles.map(({ network, url }) => {
     padding-block: 0.5rem;
     text-align: center;
     font-size: 0.875rem;
-    
+
     view-timeline-name: --revealing;
     view-timeline-axis: block;
 
-    animation: linear 0.5s fadeIn;
+    animation: linear 0.3s fadeIn;
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
 
@@ -199,6 +199,8 @@ const profilesInfo = basics.profiles.map(({ network, url }) => {
       align-items: center;
       justify-content: center;
       cursor: pointer;
+
+      animation-range: entry 100% cover 30%;
     }
   }
 

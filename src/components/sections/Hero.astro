@@ -77,11 +77,20 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
     align-items: flex-start;
     justify-content: space-between;
     gap: 2rem;
-  }
 
-  .info {
-    display: grid;
-    gap: 0.5rem;
+    .info {
+      display: grid;
+      gap: 0.5rem;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+
+      .info {
+        place-items: center;
+      }
+    }
   }
 
   h1 {
