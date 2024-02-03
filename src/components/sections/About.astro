@@ -1,0 +1,14 @@
+---
+import { getI18n } from '@/i18n/'
+import Section from '@/components/Section.astro'
+
+const { currentLocale } = Astro
+const i18n = getI18n({ currentLocale })
+
+const { basics, PAGE_INFO } = i18n
+const { summary } = basics
+---
+
+<Section title={PAGE_INFO.About}>
+  <p>{summary}</p>
+</Section>

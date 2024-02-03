@@ -1,0 +1,124 @@
+---
+import { getI18n } from '@/i18n/'
+import Section from '@/components/Section.astro'
+
+const { currentLocale } = Astro
+const i18n = getI18n({ currentLocale })
+
+const { education, certificates, PAGE_INFO } = i18n
+
+const { CURRENT } = PAGE_INFO
+---
+
+<Section title={i18n.PAGE_INFO.Education}>
+  <ul>
+    {
+      education.map(({ institution, url, area, startDate, endDate }) => {
+        const startYear = new Date(startDate).getFullYear()
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : `${CURRENT}`
+        const years = `${startYear} - ${endYear}`
+
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  <a href={url} target='_blank' rel='noopener noreferrer'>
+                    {institution}
+                  </a>
+                </h3>
+                <h4>{area}</h4>
+              </header>
+              <time>{years}</time>
+            </article>
+          </li>
+        )
+      })
+    }
+    <li>
+      <h3 class='certificates'>
+        {i18n.PAGE_INFO.Certificates}
+      </h3>
+    </li>
+    {
+      certificates.map(({ name, startDate, endDate, issuer, url }) => {
+        const start = new Date(startDate)
+        const startYear = start.getFullYear()
+        const startMonth = start.getMonth() + 1
+
+        const end = endDate != null ? new Date(endDate) : new Date()
+        const endYear = end.getFullYear()
+        const endMonth = end.getMonth() + 1
+
+        const years = `${startMonth}/${startYear} - ${endDate != null ? `${endMonth}/${endYear}` : 'Actual'}`
+
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  <a href={url} target='_blank' rel='noopener noreferrer'>
+                    {issuer}
+                  </a>
+                </h3>
+                <h4>{name}</h4>
+              </header>
+              <time>{years}</time>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    gap: 2rem;
+  }
+
+  article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  a {
+    font-weight: 500;
+    opacity: 0.95;
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      color: #fff;
+    }
+  }
+
+  h4 {
+    font-weight: 400;
+    opacity: 0.9;
+  }
+
+  .certificates {
+    font-weight: 500;
+    opacity: 0.95;
+    padding: 0 0 0.5rem 0;
+
+    border-bottom: 1px solid;
+  }
+
+  time {
+    font-size: 0.85rem;
+    opacity: 0.6;
+  }
+</style>

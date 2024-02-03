@@ -1,0 +1,125 @@
+---
+import { getI18n } from '@/i18n/'
+import Section from '@/components/Section.astro'
+
+const { currentLocale } = Astro
+const i18n = getI18n({ currentLocale })
+
+const { projects } = i18n
+---
+
+<Section title={i18n.PAGE_INFO.Projects}>
+  <ul class='projects'>
+    {
+      projects.map(({ name, isActive, description, highlights, url }) => (
+        <li>
+          <article>
+            <header>
+              <h3>
+                <a href={url} target='_blank' rel='noopener noreferrer'>
+                  {name}
+                </a>
+                {isActive && <span>&bull;</span>}
+              </h3>
+              <p>{description}</p>
+            </header>
+            <footer>
+              {highlights.map((highlight) => {
+                return <span>{highlight}</span>
+              })}
+            </footer>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    border-radius: 0.5rem;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1rem;
+    height: 100%;
+
+    header {
+      flex: 1;
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    a {
+      width: fit-content;
+      color: #111;
+      transition:
+        color 0.2s ease,
+        text-decoration 0.2s ease;
+
+      &:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+    }
+
+    p {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+    }
+
+    h3 {
+      span {
+        color: #00bc2f;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+
+    span {
+      border-radius: 6px;
+      background: #eee;
+      color: #444;
+      font-size: 0.6rem;
+      font-weight: 500;
+      padding: 0.2rem 0.6rem;
+    }
+  }
+
+  .github-code-link {
+    margin-left: 5px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    article {
+      border-color: #333;
+
+      a {
+        color: #fff;
+
+        &:hover {
+          color: #ccc;
+        }
+      }
+    }
+    footer {
+      span {
+        background: #444;
+        color: #fff;
+      }
+    }
+  }
+</style>
