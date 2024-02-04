@@ -37,6 +37,21 @@ const i18n = getI18n({ currentLocale })
     padding: 0;
   }
 
+  :root,
+  html {
+    --background-color: #fff;
+    --primary-color: #fafafa;
+    --hover-color: #f6f6f6;
+    --pills-bg: #e7e7e7;
+    --border-color: #d1d1d1;
+    --span-color: #5d5d5d;
+    --pills-text: #4f4f4f;
+    --text-color: #454545;
+    --subtitle-color: #2c2c2c;
+    --title-color: #000000;
+    --active-color: #00bc2f;
+  }
+
   html {
     font-family:
       Menlo,
@@ -46,6 +61,21 @@ const i18n = getI18n({ currentLocale })
       Courier,
       monospace;
     letter-spacing: -0.025rem;
+    background-color: var(--background-color);
+  }
+
+  html.dark {
+    --background-color: #011223;
+    --primary-color: #0d1f2d;
+    --hover-color: #0f2a3a;
+    --pills-bg: #0f2a3a;
+    --border-color: #0f2a3a;
+    --span-color: #a7a7a7;
+    --pills-text: #e6e6e6;
+    --text-color: #d9d9d9;
+    --subtitle-color: #f6f6f6;
+    --title-color: #f6f6f6;
+    --active-color: #00bc2f;
   }
 
   body {
@@ -55,7 +85,7 @@ const i18n = getI18n({ currentLocale })
 
     @media (max-width: 768px) {
       grid-template-columns: 1rem [section-start] 1fr [section-end] 1rem;
-      padding-block: 1rem;
+      padding-block: 2rem;
     }
   }
 
@@ -90,6 +120,7 @@ const i18n = getI18n({ currentLocale })
       'Open Sans',
       'Helvetica Neue',
       sans-serif;
+    color: var(--title-color);
   }
 
   img {
@@ -101,7 +132,7 @@ const i18n = getI18n({ currentLocale })
   }
 
   p {
-    opacity: 0.85;
+    color: var(--text-color);
     font-size: 0.8rem;
     line-height: 1.5;
     text-wrap: pretty;
@@ -119,12 +150,6 @@ const i18n = getI18n({ currentLocale })
     }
     .no-print {
       display: none !important;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #011223;
     }
   }
 </style>

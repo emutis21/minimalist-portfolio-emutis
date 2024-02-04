@@ -92,15 +92,10 @@ const { CURRENT } = PAGE_INFO
 
   a {
     font-weight: 500;
-    opacity: 0.95;
-    color: #000;
+    color: var(--subtitle-color);
 
     &:hover {
       text-decoration: underline;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      color: #fff;
     }
   }
 
@@ -119,6 +114,6 @@ const { CURRENT } = PAGE_INFO
 
   time {
     font-size: 0.85rem;
-    opacity: 0.6;
+    color: var(--span-color);
   }
 </style>

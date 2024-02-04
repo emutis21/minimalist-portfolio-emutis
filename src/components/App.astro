@@ -7,6 +7,7 @@ import Hero from './sections/Hero.astro'
 import KeyboardManager from './KeyboardManager.astro'
 import Projects from './sections/Projects.astro'
 import Skills from './sections/Skills.astro'
+import ThemeIcon from './ThemeIcon.astro'
 
 import { getI18n } from '@/i18n/'
 
@@ -22,6 +23,8 @@ const i18n = getI18n({ currentLocale })
     <Skills />
     <Projects />
   </main>
+
+  <ThemeIcon />
 
   <KeyboardManager />
 </Layout>

@@ -44,7 +44,7 @@ const { projects } = i18n
 
   article {
     border-radius: 0.5rem;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -59,13 +59,13 @@ const { projects } = i18n
 
     a {
       width: fit-content;
-      color: #111;
+      color: var(--subtitle-color);
       transition:
         color 0.2s ease,
         text-decoration 0.2s ease;
 
       &:hover {
-        color: #000;
+        color: var(--title-color);
         text-decoration: underline;
       }
     }
@@ -77,7 +77,7 @@ const { projects } = i18n
 
     h3 {
       span {
-        color: #00bc2f;
+        color: var(--active-color);
       }
     }
   }
@@ -91,8 +91,8 @@ const { projects } = i18n
 
     span {
       border-radius: 6px;
-      background: #eee;
-      color: #444;
+      background: var(--hover-color);
+      color: var(--text-color);
       font-size: 0.6rem;
       font-weight: 500;
       padding: 0.2rem 0.6rem;
@@ -103,7 +103,7 @@ const { projects } = i18n
     margin-left: 5px;
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     article {
       border-color: #333;
 
@@ -121,5 +121,5 @@ const { projects } = i18n
         color: #fff;
       }
     }
-  }
+  } */
 </style>
