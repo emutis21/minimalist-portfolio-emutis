@@ -129,6 +129,9 @@ const profilesInfo = basics.profiles.map(({ network, url }) => {
         },
       },
       ...data,
+      // {
+
+      // },
       {
         id: 'Theme',
         title: 'Change theme...',
@@ -210,6 +213,7 @@ const profilesInfo = basics.profiles.map(({ network, url }) => {
         handler: () => {
           document.documentElement.classList.add('dark')
           document.getElementById('ninjaKeys')?.classList.add('dark')
+
           localStorage.setItem('theme', 'dark')
         },
       },
