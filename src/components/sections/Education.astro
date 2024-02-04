@@ -82,6 +82,11 @@ const { CURRENT } = PAGE_INFO
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: 570px) {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 
   header {
