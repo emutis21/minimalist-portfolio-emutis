@@ -18,7 +18,7 @@
   },
   "basics": {
     "name": "Esteban Smith Mutis",
-    "label": "Front End Developer, with knowledge in Back End",
+    "label": "Estudiante de Ingeniería de Sistemas con experiencia en desarrollo web",
     "image": "/emutis.webp",
     "email": "smithmutis@gmail.com",
     "phone": "+573204958403",
@@ -46,28 +46,27 @@
   },
   "experience": [
     {
-      "name": "Juan Poloche's Campaign",
+      "name": "Juan Poloche Campaign",
       "description": "Political campaign for the Usaquén council",
       "position": "Web Developer",
       "startDate": "2023-06-05",
       "endDate": "2023-10-29",
       "highlighs": [
-        "Development of the campaign website, with a minimalist and responsive design, so that citizens can learn about Juan Poloche's proposals and work plan. The website has a contact form so that citizens can send their questions and suggestions",
-        "Participation in the digital marketing strategy, to reach more citizens and publicize Juan Poloche's campaign",
-        "Creation of content for the campaign's social networks, in order to inform citizens about the proposals and the campaign's work plan",
-        "Monitoring and analysis of the metrics of the website and social networks, to evaluate the impact of the campaign and make data-driven decisions"
+        "Developed the Juan Poloche's campaign website with a minimalist and responsive design for citizens to access his proposals and work plan.",
+        "Contributed to the digital marketing strategy to expand the campaign's reach.",
+        "Generated content on social media to inform citizens and conducted metric analysis to assess the campaign's impact, making data-driven decisions."
       ],
       "url": "https://juanpoloche-campana.vercel.app/"
     },
     {
       "name": "Jóvenes a la U",
-      "description": "Vocational guidance platform for young people to resolve doubts about higher education at the Universidad Distrital",
+      "description": "Vocational guidance for students at the Universidad Distrital.",
       "position": "Web Developer",
       "startDate": "2023-07-01",
       "endDate": null,
       "highlighs": [
-        "Adaptation of the Jóvenes a la U website to the needs of the young people of the Universidad Distrital, with a modern and attractive design, so that young people can find information about the academic offer, scholarship programs and extracurricular activities of the Universidad Distrital",
-        "Improvement of the user experience of the website, with a responsive design and intuitive navigation"
+        "Optimized the 'Jóvenes a la U' website for Universidad Distrital students, with a modern and attractive design, facilitating access to information about academic offerings, scholarships, and extracurricular activities.",
+        "Significantly improved the user experience through responsive design and intuitive navigation on the 'Jóvenes a la U' website."
       ],
       "url": null
     }

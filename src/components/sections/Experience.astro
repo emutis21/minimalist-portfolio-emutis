@@ -1,0 +1,121 @@
+---
+import Section from '@/components/Section.astro'
+import { getI18n } from '@/i18n/'
+
+const { currentLocale } = Astro
+const i18n = getI18n({ currentLocale })
+
+const { PAGE_INFO, experience } = i18n
+
+const { CURRENT } = PAGE_INFO
+---
+
+<Section title={PAGE_INFO.Experience}>
+  <ul class='ul'>
+    {
+      experience.map(({ name, description, startDate, endDate, position, highlighs, url }) => {
+        const start = new Date(startDate)
+        const startYear = start.getFullYear()
+        const startMonth = start.getMonth() + 1
+
+        const end = endDate != null ? new Date(endDate) : new Date()
+        const endYear = end.getFullYear()
+        const endMonth = end.getMonth() + 1
+
+        const years = `${startMonth}/${startYear} - ${endDate != null ? `${endMonth}/${endYear}` : 'Actual'}`
+
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  {url ? (
+                    <a href={url} target='_blank' rel='noopener noreferrer'>
+                      {name}
+                    </a>
+                  ) : (
+                    <span>{name}</span>
+                  )}
+                </h3>
+                <time>{years}</time>
+              </header>
+              <main>
+                <h4>{position}</h4>
+                <h5>{description}</h5>
+                <ul>
+                  {highlighs.map((highlight) => (
+                    <li>
+                      <p>{highlight}</p>
+                    </li>
+                  ))}
+                </ul>
+              </main>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  .ul {
+    display: grid;
+    gap: 2rem;
+  }
+
+  article {
+    display: grid;
+    gap: 1rem;
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      a,
+      h3 {
+        font-weight: 500;
+        color: var(--subtitle-color);
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      time {
+        text-align: right;
+        font-size: 0.85rem;
+        color: var(--span-color);
+      }
+
+      @media (max-width: 570px) {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+
+    main {
+      display: grid;
+      gap: 0.5rem;
+
+      h4 {
+        font-weight: 400;
+        opacity: 0.95;
+      }
+
+      h5 {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--pills-text);
+      }
+
+      ul {
+        list-style: outside;
+        display: grid;
+        gap: 0.8rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+</style>

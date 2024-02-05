@@ -18,7 +18,7 @@
   },
   "basics": {
     "name": "Esteban Smith Mutis",
-    "label": "Front End Developer, con conocimientos en Back End",
+    "label": "Estudiante de Ingeniería de Sistemas con experiencia en desarrollo web",
     "image": "/emutis.webp",
     "email": "smithmutis@gmail.com",
     "phone": "+573204958403",
@@ -52,23 +52,21 @@
       "startDate": "2023-06-05",
       "endDate": "2023-10-29",
       "highlighs": [
-        "Desarrollo de la página web de la campaña, con un diseño minimalista y responsive, para que los ciudadanos puedan conocer las propuestas y el plan de trabajo de Juan Poloche. La página web cuenta con un formulario de contacto para que los ciudadanos puedan enviar sus preguntas y sugerencias",
-        "Participación en la estrategia de marketing digital, para llegar a más ciudadanos y dar a conocer la campaña de Juan Poloche",
-        "Creación de contenido para las redes sociales de la campaña, con el fin de informar a los ciudadanos sobre las propuestas y el plan de trabajo de la campaña",
-        "Realizando seguimiento y análisis de las métricas de la página web y las redes sociales, para evaluar el impacto de la campaña y tomar decisiones basadas en datos"
+        "Desarrollé la página web de la campaña de Juan Poloche, con diseño minimalista y responsive para que los ciudadanos accedan a sus propuestas y plan de trabajo.",
+        "Contribuí a la estrategia de marketing digital para ampliar el alcance de la campaña.",
+        "Generé contenido en redes sociales informando a los ciudadanos y realicé análisis de métricas para evaluar el impacto de la campaña y tomar decisiones basadas en datos."
       ],
-
       "url": "https://juanpoloche-campana.vercel.app/"
     },
     {
       "name": "Jóvenes a la U",
-      "description": "Plataforma de orientación vocacional para jóvenes para resolver dudas sobre la educación superior en la Universidad Distrital",
+      "description": "Orientación vocacional para estudiantes de la Universidad Distrital.",
       "position": "Desarrollador Web",
       "startDate": "2023-07-01",
       "endDate": null,
       "highlighs": [
-        "Adaptación de la página web de Jóvenes a la U a las necesidades de los jóvenes de la Universidad Distrital, con un diseño moderno y atractivo, para que los jóvenes puedan encontrar información sobre la oferta académica, los programas de becas y las actividades extracurriculares de la Universidad Distrital",
-        "Mejora de la experiencia de usuario de la página web, con un diseño responsive y una navegación intuitiva"
+        "Optimización de la página web de 'Jóvenes a la U' para los estudiantes de la Universidad Distrital, con un diseño moderno y atractivo que facilita el acceso a información sobre oferta académica, becas y actividades extracurriculares.",
+        "Mejora significativa de la experiencia del usuario mediante un diseño responsive y una navegación intuitiva en la página web de 'Jóvenes a la U'."
       ],
       "url": null
     }
