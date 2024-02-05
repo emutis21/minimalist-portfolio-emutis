@@ -22,7 +22,7 @@
     "image": "/emutis.webp",
     "email": "smithmutis@gmail.com",
     "phone": "+573204958403",
-    "summary": "Web developer with solid knowledge in frontend and backend, specialized in Java (Spring Boot), Node.js, React and Next.js. Expert in performance optimization and accessibility. Certified by Oracle Next Education and SENA. Currently a student of Systems Engineering in Bogotá, Colombia.",
+    "summary": "Computer Systems Engineering student with experience and passion for web development and UI/UX design. I have knowledge in Java (Spring Boot), Node.js, React and Next.js, with which I have developed different personal projects. I specialize in performance optimization and accessibility, creating high-quality user experiences.",
     "location": {
       "postalCode": "110121",
       "city": "Bogota",
@@ -44,6 +44,34 @@
       }
     ]
   },
+  "experience": [
+    {
+      "name": "Juan Poloche's Campaign",
+      "description": "Political campaign for the Usaquén council",
+      "position": "Web Developer",
+      "startDate": "2023-06-05",
+      "endDate": "2023-10-29",
+      "highlighs": [
+        "Development of the campaign website, with a minimalist and responsive design, so that citizens can learn about Juan Poloche's proposals and work plan. The website has a contact form so that citizens can send their questions and suggestions",
+        "Participation in the digital marketing strategy, to reach more citizens and publicize Juan Poloche's campaign",
+        "Creation of content for the campaign's social networks, in order to inform citizens about the proposals and the campaign's work plan",
+        "Monitoring and analysis of the metrics of the website and social networks, to evaluate the impact of the campaign and make data-driven decisions"
+      ],
+      "url": "https://juanpoloche-campana.vercel.app/"
+    },
+    {
+      "name": "Jóvenes a la U",
+      "description": "Vocational guidance platform for young people to resolve doubts about higher education at the Universidad Distrital",
+      "position": "Web Developer",
+      "startDate": "2023-07-01",
+      "endDate": null,
+      "highlighs": [
+        "Adaptation of the Jóvenes a la U website to the needs of the young people of the Universidad Distrital, with a modern and attractive design, so that young people can find information about the academic offer, scholarship programs and extracurricular activities of the Universidad Distrital",
+        "Improvement of the user experience of the website, with a responsive design and intuitive navigation"
+      ],
+      "url": null
+    }
+  ],
   "education": [
     {
       "institution": "Universidad Francisco José de Caldas",
@@ -182,13 +210,6 @@
       "description": "Download YouTube videos in MP4 format",
       "highlights": ["Download your favorite videos", "In production"],
       "url": "https://github.com/emutis21/yt-downloader"
-    },
-    {
-      "name": "Juan Poloche Campaign",
-      "isActive": true,
-      "description": "Political campaign for the Usaquén aldermanship",
-      "highlights": ["Vote for change", "In production"],
-      "url": "https://juanpoloche-campana.vercel.app/"
     },
     {
       "name": "Motoland",

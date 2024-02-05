@@ -22,7 +22,7 @@
     "image": "/emutis.webp",
     "email": "smithmutis@gmail.com",
     "phone": "+573204958403",
-    "summary": "Desarrollador web con sólidos conocimientos en frontend y backend, especializado en Java (Spring Boot), Node.js, React y Next.js. Experto en optimización de rendimiento y accesibilidad. Certificado por Oracle Next Education y el SENA. Actualmente estudiante de Ingeniería en Sistemas en Bogotá, Colombia.",
+    "summary": "Ingeniero de Sistemas en formación con experiencia y pasión por el desarrollo web y el diseño UI/UX. Tengo conocimientos en Java (Spring Boot), Node.js, React y Next.js, con los que he desarrollado diferentes proyectos personales. Me especializo en la optimización de rendimiento y accesibilidad, creando experiencias de usuario de alta calidad.",
     "location": {
       "postalCode": "110121",
       "city": "Bogotá",
@@ -44,6 +44,35 @@
       }
     ]
   },
+  "experience": [
+    {
+      "name": "Campaña de Juan Poloche",
+      "description": "Campaña política para el edilato de Usaquén",
+      "position": "Desarrollador Web",
+      "startDate": "2023-06-05",
+      "endDate": "2023-10-29",
+      "highlighs": [
+        "Desarrollo de la página web de la campaña, con un diseño minimalista y responsive, para que los ciudadanos puedan conocer las propuestas y el plan de trabajo de Juan Poloche. La página web cuenta con un formulario de contacto para que los ciudadanos puedan enviar sus preguntas y sugerencias",
+        "Participación en la estrategia de marketing digital, para llegar a más ciudadanos y dar a conocer la campaña de Juan Poloche",
+        "Creación de contenido para las redes sociales de la campaña, con el fin de informar a los ciudadanos sobre las propuestas y el plan de trabajo de la campaña",
+        "Realizando seguimiento y análisis de las métricas de la página web y las redes sociales, para evaluar el impacto de la campaña y tomar decisiones basadas en datos"
+      ],
+
+      "url": "https://juanpoloche-campana.vercel.app/"
+    },
+    {
+      "name": "Jóvenes a la U",
+      "description": "Plataforma de orientación vocacional para jóvenes para resolver dudas sobre la educación superior en la Universidad Distrital",
+      "position": "Desarrollador Web",
+      "startDate": "2023-07-01",
+      "endDate": null,
+      "highlighs": [
+        "Adaptación de la página web de Jóvenes a la U a las necesidades de los jóvenes de la Universidad Distrital, con un diseño moderno y atractivo, para que los jóvenes puedan encontrar información sobre la oferta académica, los programas de becas y las actividades extracurriculares de la Universidad Distrital",
+        "Mejora de la experiencia de usuario de la página web, con un diseño responsive y una navegación intuitiva"
+      ],
+      "url": null
+    }
+  ],
   "education": [
     {
       "institution": "Universidad Francisco José de Caldas",
@@ -182,13 +211,6 @@
       "description": "Descarga videos de YouTube en formato MP4",
       "highlights": ["Descarga tus videos favoritos", "En producción"],
       "url": "https://github.com/emutis21/yt-downloader"
-    },
-    {
-      "name": "Campaña de Juan Poloche",
-      "isActive": true,
-      "description": "Campaña política para el edilato de Usaquén",
-      "highlights": ["Vota por el cambio", "En producción"],
-      "url": "https://juanpoloche-campana.vercel.app/"
     },
     {
       "name": "Motoland",
