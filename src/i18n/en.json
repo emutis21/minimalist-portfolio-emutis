@@ -4,7 +4,7 @@
     "SEO_DESCRIPTION": "Minimalist portfolio to show the projects, skills and experience of Esteban Mutis",
     "SEO_KEYWORDS": "Portfolio, minimalist, Esteban Mutis, projects, skills, experience",
     "EMAIL_TITLE": "Send an email to Esteban Mutis at smithmutis@gmail.com",
-    "PHONE_TITLE": "Call Esteban Mutis at +573204958403",
+    "PHONE_TITLE": "Call Esteban Mutis at +573237596584",
     "SEO_IMAGE": "/emutis.png",
     "About": "About me",
     "Projects": "Projects",
@@ -21,7 +21,7 @@
     "label": "System engineer student with experience in web development",
     "image": "/emutis.webp",
     "email": "smithmutis@gmail.com",
-    "phone": "+573204958403",
+    "phone": "+573237596584",
     "summary": "Computer Systems Engineering student with experience and passion for web development and UI/UX design. I have knowledge in Java (Spring Boot), Node.js, React and Next.js, with which I have developed different personal projects. I specialize in performance optimization and accessibility, creating high-quality user experiences.",
     "location": {
       "postalCode": "110121",
@@ -45,6 +45,22 @@
     ]
   },
   "experience": [
+    {
+      "name": "Bacu",
+      "description": "Management platform for restaurants and businesses",
+      "position": "Frontend Developer",
+      "startDate": "2024-06-04",
+      "endDate": null,
+      "highlighs": [
+        "Developed and implemented an online menu system with multi-language support from scratch, integrating internal API with Google Sheets as a translation dictionary, improving the end-user experience.",
+        "Optimized performance and user experience across multiple products with React and TypeScript, reducing load times and improving interaction metrics.",
+        "Led the progressive migration from JavaScript to TypeScript and implemented reusable CSS styles to replace Tailwind, improving code maintainability.",
+        "Implemented Meta Pixel and Google Analytics 4 in the e-commerce platform, establishing tracking for critical events to improve data-driven decision making.",
+        "Transitioned from Support and QA Analyst to Frontend Developer over a 3-month period, training new full-time team members who took over my previous responsibilities.",
+        "Performed technical diagnostics and end-to-end testing for multiple products (POS, e-commerce, order-in-table, online menu), identifying and resolving critical hardware, software, and network issues."
+      ],
+      "url": null
+    },
     {
       "name": "Juan Poloche Campaign",
       "description": "Political campaign for the Usaquén council",

@@ -46,6 +46,22 @@
   },
   "experience": [
     {
+      "name": "Bacu",
+      "description": "Plataforma de gestión para restaurantes y comercios",
+      "position": "Desarrollador Frontend",
+      "startDate": "2024-06-04",
+      "endDate": null,
+      "highlighs": [
+        "Desarrollé e implementé un sistema de menú online con soporte para múltiples idiomas desde cero, integrando API interna con Google Sheets como diccionario de traducción, mejorando la experiencia del usuario final.",
+        "Optimicé el rendimiento y experiencia de usuario de múltiples productos con React y TypeScript, reduciendo tiempos de carga y mejorando métricas de interacción.",
+        "Lideré la migración progresiva de JavaScript a TypeScript y la implementación de estilos CSS reutilizables para reemplazar Tailwind, mejorando la mantenibilidad del código.",
+        "Implementé Pixel de Meta y Google Analytics 4 en el e-commerce, estableciendo tracking de eventos críticos para mejorar la toma de decisiones basada en datos.",
+        "Transicioné de Analista de Soporte y QA a Desarrollador Frontend durante un período de 3 meses, capacitando a nuevos miembros del equipo a tiempo completo que asumieron mis responsabilidades anteriores.",
+        "Ejecuté diagnósticos técnicos y pruebas end-to-end para múltiples productos (POS, e-commerce, order-in-table, menú online), identificando y resolviendo problemas críticos de hardware, software y red."
+      ],
+      "url": null
+    },
+    {
       "name": "Campaña de Juan Poloche",
       "description": "Campaña política para el edilato de Usaquén",
       "position": "Desarrollador Web",
@@ -63,7 +79,7 @@
       "description": "Orientación vocacional para estudiantes de la Universidad Distrital.",
       "position": "Desarrollador Web",
       "startDate": "2023-07-01",
-      "endDate": null,
+      "endDate": "2024-11-30",
       "highlighs": [
         "Optimización de la página web de 'Jóvenes a la U' para los estudiantes de la Universidad Distrital, con un diseño moderno y atractivo que facilita el acceso a información sobre oferta académica, becas y actividades extracurriculares.",
         "Mejora significativa de la experiencia del usuario mediante un diseño responsive y una navegación intuitiva en la página web de 'Jóvenes a la U'."
